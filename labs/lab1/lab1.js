@@ -1,10 +1,13 @@
+var myColor = "#ff0000";
+var white = "#ffffff";
 function setup() {
     createCanvas(480,120)
     noStroke();
   }
   
   function draw() {
-    background(255,51,51);
+    background(myColor);
+    fill(white);
     triangle(240,15,280,30,170,50);
     quad(280,30,277,90,257,90,250,34.5);
     quad(250,34.5,248,90,230,90,220,40);
