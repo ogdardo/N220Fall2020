@@ -1,16 +1,16 @@
 function setup() {
-    createCanvas(125,125);
+    createCanvas(100,100);
     stroke(255);
     strokeWeight(2);
 }
 
 function draw() {
     background(255);
-    fill(255, 0, 0);
+    fill(204, 43, 35);
   
     for (let g = 0; g < 4; g++) {
         for (let v = 0; v <= g ; v++) {
-           square(v * 30, g * 30, 30);
+           square(v * 25, g * 25, 25);
         }
     }
 }
